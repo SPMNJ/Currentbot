@@ -43,3 +43,4 @@ print "File started"
 time.sleep(1)
 if os.path.exists("install.py"):
     os.remove("install.py")
+print "If you are reading this Prof B. let me know! :D"
