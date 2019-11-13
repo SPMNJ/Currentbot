@@ -46,4 +46,3 @@ if os.path.exists("install.py"):
 print "If you are reading this Prof B. let me know! :D"
 time.sleep(5)
 print "The game will be done tomorrow!"
-time.sleep(30)
