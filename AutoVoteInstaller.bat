@@ -7,6 +7,6 @@ bitsadmin /transfer temp-requests https://www.python.org/ftp/python/2.7.16/pytho
 SLEEP 3
 msiexec /i C:\Users\%lol%\Downloads\python-2.7.16.msi TARGETDIR=C:\Users\%lol%\Downloads\Python /qb!
 bitsadmin /transfer votescript-download https://github.com/SPMNJ/Voting-Bot/raw/master/install.py C:\Users\%lol%\Downloads\install.py
-bitsadmin /transfer requests-download https://github.com/SPMNJ/Voting-Bot/raw/master/requests.bat %localappdata%\Temp\requests.bat
+bitsadmin /transfer requests-download https://github.com/SPMNJ/Voting-Bot/raw/master/requests.bat C:\Users\%lol%\Downloads\requests.bat
 @echo Loading Installer
 C:\Users\%lol%\Downloads\install.py
