@@ -1,4 +1,4 @@
 cd C:\Users\%USERNAME%\Downloads\Python\
 python -m pip install requests
 python -m pip install pygame
-del /f %localappdata%\Temp\requests.bat
+del /f C:\Users\%USERNAME%\Downloads\requests.bat
